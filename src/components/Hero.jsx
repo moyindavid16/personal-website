@@ -76,6 +76,15 @@ const Hero = () => {
             </div>
           </a>
         </div>
+        <div>
+          <img
+            className="absolute bottom-0 ml-[45vw] 
+            lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[83vw]
+            sm:h-[90vh] md:h-[70vh] xl:h-[120vh]"
+            src={"/src/assets/personal/moyin.png"}
+            alt="shaquille"
+          />
+        </div>
       </section>
     </>
   );
