@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+/* eslint-disable react/prop-types */
 import { motion } from 'framer-motion';
-import { SectionWrapper } from '../hoc';
-import { styles } from '../styles';
+import { useState } from 'react';
 import { github, pineapple, pineappleHover } from '../assets';
 import { projects } from '../constants';
-import { fadeIn, textVariant, staggerContainer } from '../utils/motion';
+import { SectionWrapper } from '../hoc';
+import { styles } from '../styles';
+import { fadeIn, staggerContainer, textVariant } from '../utils/motion';
 
 const ProjectCard = ({
   id,
@@ -75,7 +76,7 @@ const ProjectCard = ({
               font-poppins tracking-[1px]">
               {description}
             </p>
-            <button
+            {demo && <button
               className="live-demo flex justify-between 
               sm:text-[16px] text-[14px] text-timberWolf 
               font-bold font-beckman items-center py-5 pl-2 pr-3 
@@ -102,7 +103,7 @@ const ProjectCard = ({
                   w-[30px] h-[30px] object-contain"
               />
               LIVE DEMO
-            </button>
+            </button>}
           </div>
         </>
       )}
@@ -124,11 +125,10 @@ const Projects = () => {
         <motion.p
           variants={fadeIn('', '', 0.1, 1)}
           className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-          These projects demonstrate my expertise with practical examples of
-          some of my work, including brief descriptions and links to code
-          repositories and live demos. They showcase my ability to tackle
-          intricate challenges, adapt to various technologies, and efficiently
-          oversee projects.
+          Explore a collection of my projects where I leverage my passion for 
+          developing software technologies. Each project has a unique story and showcases innovative 
+          solutions, reflecting my drive to build 
+          the next big thing. More information could be found on the Github Repos or on my Resume.
         </motion.p>
       </div>
 

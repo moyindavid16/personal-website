@@ -4,24 +4,28 @@ import {
   cpp,
   dcc,
   docker,
+  ebeano,
   expressjs,
   figma,
   frontend,
   git,
+  hmns,
   kelhel,
   komikult,
   leaderboard,
   math,
   microverse,
+  moneybuddy,
   movie,
   nextjs,
   nodejs,
   nyeusi,
   playwright,
+  poke,
   postgresql,
   reactjs,
   tailwind,
-  typescript
+  typescript,
 } from "../assets";
 
 export const navLinks = [
@@ -148,8 +152,9 @@ const experiences = [
 const projects = [
   {
     id: "project-1",
-    name: "KomiKult",
-    description: "A comic characters list app that displays Marvel characters.",
+    name: "HMNS Butterfly",
+    description:
+      "an app for the Houston Museum of Natural Science, enabling 5,000+ daily visitors to photograph butterflies for AI-assisted identification, participate in daily challenges, and explore the museum’s extensive butterfly gallery.",
     tags: [
       {
         name: "react",
@@ -164,99 +169,73 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: komikult,
-    repo: "https://github.com/shaqdeff/KomiKult",
-    demo: "https://shaqdeff.github.io/KomiKult/",
+    image: hmns,
+    repo: "https://github.com/rice-apps/hmns",
   },
   {
     id: "project-2",
-    name: "Leaderboard",
-    description: "A leaderboard list app that displays scores submitted by different players.",
+    name: "Money Buddy",
+    description: "A HackRice 13(Rice University Hackathon) winner, Money Buddy is a personal expense management Discord bot capable of storing, categorizing, and presenting users’ expenses to provide an interactive and user-friendly medium for managing finances.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: leaderboard,
-    repo: "https://github.com/shaqdeff/Leaderboard",
-    demo: "https://shaqdeff.github.io/Leaderboard/",
+    image: moneybuddy,
+    repo: "https://github.com/cslvin/Money-Buddy",
   },
   {
     id: "project-3",
-    name: "Math Magicians",
-    description: "This is a single-page calculator app built with React",
+    name: "Smart Shop",
+    description: "SmartShop is a fully functional shopping app I developed to address and reduce congestion in local supermarkets in Lagos, Nigeria. By allowing users to shop seamlessly and schedule pick-ups, the app improves shopping efficiency and enhances the customer experience. This innovative solution won the Rise Global Challenge, showcasing its impact and effectiveness in solving real-world problems.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: math,
-    repo: "https://github.com/shaqdeff/Math-Magicians",
-    demo: "https://inspiring-medovik-37d3b3.netlify.app/",
+    image: ebeano,
+    repo: "https://github.com/moyindavid16/SmartShop",
   },
   {
     id: "project-4",
-    name: "Movie Metro",
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: "Pokémon Guessing Game",
+    description: "The Pokémon Guessing Game is a simple yet special project I developed using React. As my first venture into learning React, this game holds a dear place in my heart. Through this project, I not only built a fun and interactive guessing game but also gained invaluable experience with the React framework and handling REST APIs. While there are areas for improvement, this project marks a significant milestone in my journey as a developer.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: movie,
-    repo: "https://github.com/shaqdeff/Movie-Metro",
-    demo: "https://movie-metro.netlify.app/",
-  },
-  {
-    id: "project-5",
-    name: "Nyeusi Fest Site",
-    description: "This is a demo concert website for a music festival called Nyeusi.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: nyeusi,
-    repo: "https://github.com/shaqdeff/Nyeusi-Fest-Site",
-    demo: "https://shaqdeff.github.io/Nyeusi-Fest-Site/",
+    image: poke,
+    repo: "https://github.com/moyindavid16/pokemon-guessing-game",
+    demo: "http://pokemon-guessing-game-olive.vercel.app/",
   },
 ];
 
-export { experiences, projects, services, technologies };
-
+export {experiences, projects, services, technologies};

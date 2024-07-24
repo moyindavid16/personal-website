@@ -47,6 +47,10 @@ import dcc from "./company/dcc.png";
 import kelhel from "./company/kelhel.png";
 import microverse from "./company/microverse.png";
 
+import hmns from "./projects/hmns.jpg"
+import moneybuddy from "./projects/moneybuddy.png"
+import poke from "./projects/poke.jpg"
+import ebeano from "./projects/ebeano.webp"
 import komikult from "./projects/komikult.png";
 import leaderboard from "./projects/leaderboard.png";
 import math from "./projects/math-magicians.png";
@@ -95,6 +99,10 @@ export {
   tailwind,
   typescript,
   komikult,
+  hmns,
+  moneybuddy,
+  poke,
+  ebeano,
   leaderboard,
   math,
   movie,
