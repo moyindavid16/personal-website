@@ -46,6 +46,9 @@ import coverhunt from "./company/coverhunt.png";
 import dcc from "./company/dcc.png";
 import kelhel from "./company/kelhel.png";
 import microverse from "./company/microverse.png";
+import twosig from "./company/twosig.png"
+import kepler from "./company/kepler.png"
+import nvidia from "./company/nvidia.png"
 
 import hmns from "./projects/hmns.jpg"
 import moneybuddy from "./projects/moneybuddy.png"
@@ -112,4 +115,7 @@ export {
   dcc,
   kelhel,
   microverse,
+  twosig,
+  nvidia,
+  kepler,
 };
