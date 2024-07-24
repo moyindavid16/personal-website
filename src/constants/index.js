@@ -46,20 +46,21 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Frontend Developer',
+    title: 'Computer Science @ Rice',
+    icon: "/src/assets/icons/rice.png",
+  },
+  {
+    title: 'Web Development',
     icon: frontend,
   },
   {
-    title: 'Backend Developer',
+    title: 'Competitve Programming',
     icon: backend,
   },
+  
   {
-    title: 'UI/UX Design',
-    icon: ux,
-  },
-  {
-    title: 'Software Prototyping',
-    icon: prototyping,
+    title: 'Mobile Development',
+    icon: "/src/assets/icons/mobile.svg",
   },
 ];
 
