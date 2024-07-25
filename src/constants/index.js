@@ -1,8 +1,6 @@
 import {
   backend,
-  coverhunt,
   cpp,
-  dcc,
   docker,
   ebeano,
   email,
@@ -11,26 +9,19 @@ import {
   frontend,
   git,
   hmns,
-  kelhel,
   kepler,
-  komikult,
-  leaderboard,
   linkedin,
-  math,
-  microverse,
   moneybuddy,
-  movie,
   nextjs,
   nodejs,
   nvidia,
-  nyeusi,
   playwright,
   poke,
   postgresql,
   reactjs,
   tailwind,
   twosig,
-  typescript,
+  typescript
 } from "../assets";
 
 export const navLinks = [
@@ -41,6 +32,10 @@ export const navLinks = [
   {
     id: "projects",
     title: "Projects",
+  },
+  {
+    id: "work",
+    title: "Experience + Resume",
   },
   {
     id: "contact",
@@ -180,7 +175,8 @@ const projects = [
   {
     id: "project-2",
     name: "Money Buddy",
-    description: "A HackRice 13(Rice University Hackathon) winner, Money Buddy is a personal expense management Discord bot capable of storing, categorizing, and presenting users’ expenses to provide an interactive and user-friendly medium for managing finances.",
+    description:
+      "A HackRice 13(Rice University Hackathon) winner, Money Buddy is a personal expense management Discord bot capable of storing, categorizing, and presenting users’ expenses to provide an interactive and user-friendly medium for managing finances.",
     tags: [
       {
         name: "react",
@@ -201,7 +197,8 @@ const projects = [
   {
     id: "project-3",
     name: "Smart Shop",
-    description: "SmartShop is a fully functional shopping app I developed to address and reduce congestion in local supermarkets in Lagos, Nigeria. By allowing users to shop seamlessly and schedule pick-ups, the app improves shopping efficiency and enhances the customer experience. This innovative solution won the Rise Global Challenge, showcasing its impact and effectiveness in solving real-world problems.",
+    description:
+      "SmartShop is a fully functional shopping app I developed to address and reduce congestion in local supermarkets in Lagos, Nigeria. By allowing users to shop seamlessly and schedule pick-ups, the app improves shopping efficiency and enhances the customer experience. This innovative solution won the Rise Global Challenge, showcasing its impact and effectiveness in solving real-world problems.",
     tags: [
       {
         name: "react",
@@ -222,7 +219,8 @@ const projects = [
   {
     id: "project-4",
     name: "Pokémon Guessing Game",
-    description: "The Pokémon Guessing Game is a simple yet special project I developed using React. As my first venture into learning React, this game holds a dear place in my heart. Through this project, I not only built a fun and interactive guessing game but also gained invaluable experience with the React framework and handling REST APIs. While there are areas for improvement, this project marks a significant milestone in my journey as a developer.",
+    description:
+      "The Pokémon Guessing Game is a simple yet special project I developed using React. As my first venture into learning React, this game holds a dear place in my heart. Through this project, I not only built a fun and interactive guessing game but also gained invaluable experience with the React framework and handling REST APIs. While there are areas for improvement, this project marks a significant milestone in my journey as a developer.",
     tags: [
       {
         name: "react",
@@ -246,13 +244,14 @@ const projects = [
 const contacts = [
   {
     name: "moyindavid16@gmail.com",
-    icon: email
+    icon: email,
   },
   {
     name: "moyinoluwa-orimoloye",
     icon: linkedin,
-    link: "https://www.linkedin.com/in/moyinoluwa-orimoloye/"
-  }
-]
+    link: "https://www.linkedin.com/in/moyinoluwa-orimoloye/",
+  },
+];
 
-export {experiences, projects, services, technologies, contacts};
+export { contacts, experiences, projects, services, technologies };
+
