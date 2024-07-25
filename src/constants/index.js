@@ -5,6 +5,7 @@ import {
   dcc,
   docker,
   ebeano,
+  email,
   expressjs,
   figma,
   frontend,
@@ -14,6 +15,7 @@ import {
   kepler,
   komikult,
   leaderboard,
+  linkedin,
   math,
   microverse,
   moneybuddy,
@@ -241,4 +243,16 @@ const projects = [
   },
 ];
 
-export {experiences, projects, services, technologies};
+const contacts = [
+  {
+    name: "moyindavid16@gmail.com",
+    icon: email
+  },
+  {
+    name: "moyinoluwa-orimoloye",
+    icon: linkedin,
+    link: "https://www.linkedin.com/in/moyinoluwa-orimoloye/"
+  }
+]
+
+export {experiences, projects, services, technologies, contacts};

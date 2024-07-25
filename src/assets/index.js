@@ -61,6 +61,9 @@ import movie from "./projects/movie-metro.png";
 import nyeusi from "./projects/nyeusi.png";
 import space from "./projects/space-hub.png";
 
+import email from "./contacts/email.png"
+import linkedin from "./contacts/linkedin.png"
+
 export {
   bwmap,
   nairobi,
@@ -118,4 +121,6 @@ export {
   twosig,
   nvidia,
   kepler,
+  email,
+  linkedin,
 };
