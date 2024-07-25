@@ -11,6 +11,7 @@ import {
   hmns,
   kepler,
   linkedin,
+  mobile,
   moneybuddy,
   nextjs,
   nodejs,
@@ -18,7 +19,9 @@ import {
   playwright,
   poke,
   postgresql,
+  python,
   reactjs,
+  rice,
   tailwind,
   twosig,
   typescript
@@ -46,7 +49,7 @@ export const navLinks = [
 const services = [
   {
     title: "Computer Science @ Rice",
-    icon: "/src/assets/icons/rice.png",
+    icon: rice,
   },
   {
     title: "Web Development",
@@ -59,7 +62,7 @@ const services = [
 
   {
     title: "Mobile Development",
-    icon: "/src/assets/icons/mobile.svg",
+    icon: mobile,
   },
 ];
 
@@ -70,7 +73,7 @@ const technologies = [
   },
   {
     name: "Python",
-    icon: "/src/assets/tech/python.png",
+    icon: python,
   },
   {
     name: "TypeScript",

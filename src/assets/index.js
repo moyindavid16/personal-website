@@ -7,10 +7,13 @@ import logo from "./logo/logo-black.png";
 import logotext from "./logo/logo-text-black.png";
 
 import shaq from "./personal/shaq.png";
+import moyin from "./personal/moyin.png"
 
 import backend from "./icons/backend.png";
 import ux from "./icons/ux.png";
 import frontend from "./icons/frontend.png";
+import rice from "./icons/rice.png"
+import mobile from "./icons/mobile.svg"
 import prototyping from "./icons/prototyping.png";
 import github from "./icons/github.png";
 import close from "./icons/close.png";
@@ -24,6 +27,7 @@ import send from "./icons/send.png";
 import sendHover from "./icons/sendHover.png";
 
 import css from "./tech/css.png";
+import python from "./tech/python.png"
 import nextjs from "./tech/nextjs.png";
 import playwright from "./tech/playwright.png";
 import cpp from "./tech/c++.png";
@@ -75,6 +79,8 @@ export {
   backend,
   ux,
   frontend,
+  mobile,
+  rice,
   prototyping,
   github,
   close,
@@ -87,6 +93,7 @@ export {
   send,
   sendHover,
   css,
+  python,
   docker,
   playwright,
   figma,
@@ -123,4 +130,5 @@ export {
   kepler,
   email,
   linkedin,
+  moyin
 };
